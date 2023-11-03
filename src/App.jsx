@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Cards from "./components/cards";
+import Cards from "./components/Cards";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
