@@ -262,6 +262,18 @@ const Wrapper = styled.section`
     gap: 5rem;
     /* align-items: flex-start; */
   }
+
+  @media (max-width:850px) {
+    flex-direction: column;
+    .filters{
+      height: 100%;
+      width: 100vw;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+
+    }
+  }
 `;
 
 export default App;
