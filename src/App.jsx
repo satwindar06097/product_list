@@ -267,7 +267,7 @@ const Wrapper = styled.section`
     flex-direction: column;
     .filters{
       height: 100%;
-      width: 100vw;
+      width: inherit;
       flex-direction: row;
       gap: 20px;
       justify-content: center;
